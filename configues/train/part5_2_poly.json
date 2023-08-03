@@ -1,0 +1,15 @@
+{
+    "n_folds" : 6,
+    "split_ratio" : 0.8,
+    "train_path" : "./../data/Train.txt",
+    "save_path" : "./../results/train/part5_2_poly.results",
+    
+    "balance_priors": [["imbalanced", 0.5], ["balanced", 0.5]],
+    "pca_dims": [false],
+    "normalize": ["gaussianization", false],
+    "splits": ["k-folds"],
+    "effective_priors": [[0.1, 0.5, 0.9]],
+    "degrees": [3],
+    
+    "c_values" : [-2.3]
+}

@@ -1,0 +1,14 @@
+{
+    "split_ratio" : 0.8,
+    "train_path" : "./../data/Train.txt",
+    "test_path" : "./../data/Test.txt",
+    "save_path" : "./../results/test/part2_4_lr_quad.results",
+    
+    "balance_priors": [["balanced", 0.1], ["balanced", 0.5], ["balanced", 0.9], ["imbalanced", 0.5]],
+    "pca_dims": [false],
+    "normalize": ["z-score", "gaussianization", false],
+    "splits": ["all-data", "single-fold"],
+    "effective_priors": [[0.1, 0.5, 0.9]],
+    
+    "lambdas" : [-5]
+}

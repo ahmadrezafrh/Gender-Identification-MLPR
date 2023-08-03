@@ -1,0 +1,14 @@
+{
+    "n_folds" : 6,
+    "split_ratio" : 0.8,
+    "train_path" : "./../data/Train.txt",
+    "save_path" : "./../results/train/part2_2_lr_linear.results",
+    
+    "balance_priors": [["balanced", 0.1], ["balanced", 0.5], ["balanced", 0.9]],
+    "pca_dims": [false],
+    "normalize": ["z-score", "gaussianization", false],
+    "splits": ["k-folds", "single-fold"],
+    "effective_priors": [[0.1, 0.5, 0.9]],
+    
+    "lambdas" : [-5]
+}
